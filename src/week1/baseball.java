@@ -65,7 +65,7 @@ public class baseball {
                 continue; // 입력이 잘못되었으면 다시 입력받도록 함
             }
 
-            // 입력된 숫자 중복확인
+            // 입력 숫자 중복확인
             if (uniqueCheck.size() != 3) {  // HashSet의 크기가 3이 아닌 경우, 중복된 숫자가 있다는 의미
                 System.out.println("잘못된 입력입니다. 중복되지 않은 숫자 3개를 입력해주세요.");
                 continue; // 입력이 잘못되었으면 다시 입력받도록 함
